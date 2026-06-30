@@ -10,7 +10,7 @@ Data is downloaded from .....,
 
 This code is licensed under the **European Union Public Licence (EUPL) v1.2**.
 
-- Full license text: LICENSE
+- Full license text: `LICENSE`
 - Copyright holder: RIVM (Rijksinstituut voor Volksgezondheid en Milieu)
 
 When redistributing or creating derivative works, follow the obligations in the EUPL v1.2 text included in this repository.
