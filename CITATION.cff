@@ -1,0 +1,110 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Code for "On the Efficiency of Biosphere–Atmosphere
+  Ammonia Exchange Processes over a Scots Pine Forest and
+  Its Link to Ecosystem Activity"
+message: >-
+  If you use this repository, please cite the associated
+  article.
+type: software
+authors:
+  - given-names: Ewout
+    family-names: Melman
+    email: ewout.melman@rivm.nl
+    affiliation: Institute for Public Health and the Environment (RIVM)
+    orcid: 'https://orcid.org/0009-0006-7823-2727'
+  - given-names: Pascal
+    family-names: Wintjen
+    affiliation: >-
+      Netherlands Organisation for Applied Scientific
+      Research (TNO)
+  - given-names: Jun
+    family-names: Zhang
+    affiliation: >-
+      Netherlands Organisation for Applied Scientific
+      Research (TNO)
+    orcid: 'https://orcid.org/0000-0003-1846-8915'
+  - given-names: Susanna
+    family-names: Rutledge-Jonker
+    affiliation: Institute for Public Health and the Environment (RIVM)
+    orcid: 'https://orcid.org/0000-0003-3818-5883'
+  - given-names: Arjan
+    family-names: Hensen
+    affiliation: >-
+      Netherlands Organisation for Applied Scientific
+      Research (TNO)
+    orcid: 'https://orcid.org/0000-0002-8467-7785'
+  - given-names: Kevin
+    family-names: Felter
+    affiliation: Institute for Public Health and the Environment (RIVM)
+    orcid: 'https://orcid.org/0000-0002-5316-6405'
+  - given-names: Michiel
+    family-names: van der Molen
+    orcid: 'https://orcid.org/0000-0003-4992-2420'
+    affiliation: Wageningen University & Research (WUR)
+  - given-names: Henk
+    family-names: Snellen
+    affiliation: Wageningen University & Research (WUR)
+  - given-names: Jos
+    family-names: de Boer
+    affiliation: Institute for Public Health and the Environment (RIVM)
+  - given-names: Mark
+    family-names: Eijkelboom
+    affiliation: Institute for Public Health and the Environment (RIVM)
+  - given-names: Marty
+    family-names: Haaima
+    affiliation: Institute for Public Health and the Environment (RIVM)
+  - given-names: René
+    family-names: van der Hoff
+    affiliation: Institute for Public Health and the Environment (RIVM)
+  - given-names: Harmen
+    family-names: van Mansom
+    affiliation: >-
+      Netherlands Organisation for Applied Scientific
+      Research (TNO)
+  - given-names: Marte
+    family-names: Voorneveld
+    email: marte.voorneveld@rivm.nl
+    affiliation: Institute for Public Health and the Environment (RIVM)
+  - given-names: Jordi
+    family-names: Vilà-Guerau de Arellano
+    affiliation: Wageningen University & Research (WUR)
+    orcid: 'https://orcid.org/0000-0003-0342-9171'
+  - given-names: Roy
+    family-names: Wichink Kruit
+    affiliation: Institute for Public Health and the Environment (RIVM)
+    orcid: 'https://orcid.org/0000-0003-4956-650X'
+  - given-names: Margreet
+    family-names: van Zanten
+    orcid: 'https://orcid.org/0000-0003-0010-7839'
+    affiliation: Institute for Public Health and the Environment (RIVM)
+identifiers:
+  - type: doi
+    value: 10.1016/j.agrformet.2026.111358
+    description: >-
+      DOI of the published article associated with this
+      repository.
+  - type: url
+    value: 'https://zenodo.org/records/20666694'
+    description: Link to the Zenodo data set used in this analysis
+repository-code: 'https://github.com/rivm-syso/loobos2324-nh3-flux-code'
+abstract: >-
+  This repository contains the code used to analyze NH3 flux
+  data and reproduce the figures in Melman et al.(2026), "On
+  the efficiency of biosphere–atmosphere ammonia exchange
+  processes over a Scots pine forest and its link to
+  ecosystem activity."
+keywords:
+  - Biosphere–atmosphere exchange
+  - Ammonia
+  - NH3 exchange
+  - Flux
+  - Eddy Covariance
+  - Micrometeorology
+  - Forest
+license: EUPL-1.2
+version: 1.0.0
+date-released: '2026-09-27'
