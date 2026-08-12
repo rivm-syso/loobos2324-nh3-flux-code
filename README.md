@@ -6,7 +6,7 @@ This repository contains all code necessary to reproduce the analysis and result
 
 The repository is organized to promote transparency and reproducibility, and includes:
 - A main script (`main-loobos.R`) that installs the required packages, downloads data, and sets project information and plot settings.
-- Code to generate all figures and tables in the paper (`analysis/`). In `figure-1.R`, the flux footprint is calculated with the method and code from [Kljun et al. (2015)](https://doi.org/10.5194/gmd-8-3695-2015).
+- Code to generate all figures and tables in the paper (`analysis/`). In `figure-1.R`, the flux footprint is calculated with the method and code (`functions/calc-footprint-FFP-climatology.R`) from [Kljun et al. (2015)](https://doi.org/10.5194/gmd-8-3695-2015).
 - Code to gap-fill NH₃ fluxes. Note that this is included for reproducibility only; the gap-filled output is suitable for calculating annual deposition load, but **not** for detailed process studies.
 
 ## Data
