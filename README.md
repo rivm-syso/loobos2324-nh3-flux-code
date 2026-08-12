@@ -1,4 +1,4 @@
-# Code to Melman et al. (2026)
+# Code to "On the efficiency of biosphere–Atmosphere ammonia exchange processes over a Scots pine forests and its link to ecosystem activity"
 This github repository contains the code to reproduce the analysis of "On the Efficiency of Biosphere–Atmosphere Ammonia Exchange Processes over a Scots Pine Forests and Its Link to Ecosystem Activity", as presented in Melman et al. (2026). 
 
 ## Overview
@@ -9,10 +9,9 @@ The repository is organized to promote transparency and reproducibility, and inc
 - Code to generate all figures and tables in the paper.
 
 ## Data
-Data is downloaded from ....., 
+Data is downloaded from https://zenodo.org/records/20666694. Please check if a new version of the data is available before running the code.  
 
 ## Licensing
-
 This code is licensed under the **European Union Public Licence (EUPL) v1.2**.
 
 - Full license text: `LICENSE`
@@ -20,6 +19,9 @@ This code is licensed under the **European Union Public Licence (EUPL) v1.2**.
 
 When redistributing or creating derivative works, follow the obligations in the EUPL v1.2 text included in this repository.
 
+## Citation
+When using this repository, please cite: Melman, E. A., Wintjen, P., Zhang, J., Rutledge-Jonker, S., Hensen, A., Felter, K., van der Molen, M. K., Snellen, H., de Boer, J., Eijkelboom, M., Haaima, M., van der Hoff, R., van Mansom, H., Voorneveld, M., Vilà-Guerau de Arellano, J., Wichink Kruit, R. J., & van Zanten, M. C. (2026). On the efficiency of biosphere–atmosphere ammonia exchange processes over a Scots pine forest and its link to ecosystem activity. Agricultural and Forest Meteorology, 389, 111358. https://doi.org/10.1016/j.agrformet.2026.111358
 
 ## References
-- **Melman**, E.A. & Wintjen, P. & Zhang, Jun & Rutledge-Jonker, S. & Hensen, A. and Felter, Kevin M. & van der Molen, M. & Snellen, H. & de Boer, J. & Eijkelboom, M. & Haaima, M. & van der Hoff, R. & van Mansom, H. & Voorneveld, M. & Vilà-Guerau de Arellano, J. & Wichink Kruit, R.J. & van Zanten, M.C. (2026). On the Efficiency of Biosphere–Atmosphere Ammonia Exchange Processes over a Scots Pine Forests and Its Link to Ecosystem Activity. Agricultural and Forest Meteorology, ......
+- **Kljun**, N., Calanca, P., Rotach, M. W., & Schmid, H. P. (2015). A simple two-dimensional parameterisation for flux footprint prediction (FFP). Geoscientific Model Development, 8(11), 3695–3713. https://doi.org/10.5194/gmd-8-3695-2015
+- **Melman**, E. A., Wintjen, P., Zhang, J., Rutledge-Jonker, S., Hensen, A., Felter, K., van der Molen, M. K., Snellen, H., de Boer, J., Eijkelboom, M., Haaima, M., van der Hoff, R., van Mansom, H., Voorneveld, M., Vilà-Guerau de Arellano, J., Wichink Kruit, R. J., & van Zanten, M. C. (2026). On the efficiency of biosphere–atmosphere ammonia exchange processes over a Scots pine forest and its link to ecosystem activity. Agricultural and Forest Meteorology, 389, 111358. https://doi.org/10.1016/j.agrformet.2026.111358
