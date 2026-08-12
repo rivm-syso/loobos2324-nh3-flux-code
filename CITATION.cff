@@ -91,6 +91,7 @@ identifiers:
     value: 'https://zenodo.org/records/20666694'
     description: Link to the Zenodo data set used in this analysis
 repository-code: 'https://github.com/rivm-syso/loobos2324-nh3-flux-code'
+url: 'https://doi.org/10.1016/j.agrformet.2026.111358'
 abstract: >-
   This repository contains the code used to analyze NH3 flux
   data and reproduce the figures in Melman et al.(2026), "On
