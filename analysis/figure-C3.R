@@ -18,8 +18,8 @@
 #'   A., Wichink Kruit, R., & van Zanten, M. (2024). Data and code for 
 #'   "Measurements and model results of a two-year dataset of ammonia exchange 
 #'   over a coniferous forest in the Netherlands" [Data set]. In Atmospheric  
-#'  Environment (Version v1). National Institute for Public Health and the  
-#'  Environment. https://doi.org/10.21945/17e65dbc-789d-44d7-b766-425475e30711.
+#'   Environment (Version v1). National Institute for Public Health and the  
+#'   Environment. https://doi.org/10.21945/17e65dbc-789d-44d7-b766-425475e30711.
 #' Wichink Kruit, R., van Pul, W., Sauter, F., van den Broek, M., Nemitz, E., 
 #'   Sutton, M., Krol, M., and Holtslag, A. (2010). Modeling the surface– 
 #'   atmosphere exchange of ammonia, Atmospheric Environment, 44, 945–957, 
