@@ -11,6 +11,10 @@
 #########'
 # Collect input data ----
 df_xg_fNH3 <- dat_Loobos_30 %>% 
+  mutate(
+    # Calculate average SWC at 5cm depth
+    SL.SWC.005 = rowMeans(select(., SL.SWC.W.005, SL.SWC.N.005, SL.SWC.E.005, SL.SWC.S.005))
+  ) %>% 
   dplyr::select(
     time.start, fNH3.flux, mD.cNH3, fNH3.ff1, fNH3.ff2, NEE.gf, u.star,
     BM.RH.382, BM.WD.382, LAI = LAI.gf, SL.SWC.005, BM.Tair.382, BM.R.lw.out
@@ -216,6 +220,10 @@ df_xg_fNH3_test %>%
 
 # Apply XGB model to gapfill data ----
 dat_fNH3_gf <- dat_Loobos_30 %>% 
+  mutate(
+    # Calculate average SWC at 5cm depth
+    SL.SWC.005 = rowMeans(select(., SL.SWC.W.005, SL.SWC.N.005, SL.SWC.E.005, SL.SWC.S.005))
+  ) %>% 
   dplyr::select(
     time.start, fNH3.flux, fNH3.ff1, fNH3.ff2, mD.cNH3, HT.cNH3, NEE.gf, u.star,
     BM.RH.382, BM.WD.382, LAI = LAI.gf, SL.SWC.005, BM.Tair.382, BM.R.lw.out
