@@ -17,7 +17,8 @@
 if (!require("pacman")) install.packages("pacman")
 pacman::p_load(
   # General
-  ggplot2, cowplot, dplyr, tidyr, patchwork, zoo, lubridate, RColorBrewer,  
+  ggplot2, cowplot, dplyr, tidyr, patchwork, zoo, lubridate, 
+  RColorBrewer, matrixStats,
   # main-loobos
   data.table, archive, httr,
   # figure-1
@@ -63,8 +64,8 @@ ht_deployment24_end <- campaign_end
 
 # Download data ----
 #' *NOTE*: Check if a new version of data is available at zenodo repository (!)
-# -- ZENODO url to data repository
-dat_url <- "https://zenodo.org/record/20666694/files/Loobos_2023-2024_data.csv"
+# -- ZENODO url to data repository (version 2)
+dat_url <- "https://zenodo.org/records/22250555/files/Loobos_2023-2024_data_v2.csv"
 
 # -- Read data
 dat_Loobos_30 <- fread(dat_url)
